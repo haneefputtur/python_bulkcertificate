@@ -24,7 +24,7 @@ def sendmail(name, toaddr, attach_file):
     msg['To'] = toaddr 
   
     # storing the subject  
-    msg['Subject'] = "Certificate from IEEE"
+    msg['Subject'] = "Certificate from Digix online"
   
     # string to store the body of the mail 
     body = "Dear "+name+", <br><br>Please find attached your certificate. <br><br> Best Regards <br><br>Haneef <br><br>For Digix Online Solutions."
