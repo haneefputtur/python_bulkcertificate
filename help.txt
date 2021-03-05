@@ -1,0 +1,28 @@
+
+step 1:
+
+Create App password from your gmail account
+
+Create and use app passwords : https://support.google.com/mail/answer/185833?hl=en-GB
+
+Note Down password and replace in below line of python code
+
+Step 2:
+Add below details in PDF
+fromaddr = "emailaddress@gmail.com"
+apppassword = "REPLACE WITH APP PASSWORD" 
+
+
+Step 3:
+Python package srequired
+
+reportlab
+pandas
+smtplib
+
+step 4:
+create a pdf folder to store certificate copies
+
+step 4:
+
+run python file
