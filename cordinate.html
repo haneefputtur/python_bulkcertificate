@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Haneef Coordinate System for Python </title>
+</head>
+<body align="center">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+<img src="cert_template.jpg" height="585" width="842" alt="dragon" border="1">
+    <script type="text/javascript">
+        $(document).ready(function() {
+    $("img").on("click", function(event) {
+        var x = event.pageX - this.offsetLeft;
+        var y = event.pageY - this.offsetTop;	
+		
+		var m = y - 585
+        alert(x + "," + Math.abs(m));
+    });
+});
+    </script>
+</body>
+</html>
